@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Arjun Mudhar</title>
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<style>
+			body{
+				text-align:center;
+				font-family:"Georgia";
+				background:url('http://wallpapercave.com/wp/zm8bgId.jpg');
+				background-position:center;
+				background-size: cover;
+				
+			}
+
+		</style>
+						<img src="http://kognitio.com/wp-content/uploads/2014/10/lego.jpg" 
+						height="200" width="302">  
+					
+	</head>
+	<body>
+		
+		<h1 class="animated bounceInLeft"> Arjun Mudhar</h1>
+		<h3 class="animated bounceInRight">This is my Website</h3>
+		<h4 class="animated bounceInUp">And it's a WIP</h4>
+		
+		<button id="clickButton">Click/Tap for Some Stuff</button>
+	<p id="emailText">Stuff</p>
+	</body>
+	
+     
+
+
+
+<script>
+	var myButton = document.getElementById("clickButton")
+	var myEmailAddress = document.getElementById("emailText")
+	
+	myButton.addEventListener('click', showEmail, false);
+	
+	function showEmail(){
+		myEmailAddress.textContent = "Some Stuff"
+	}
+	
+	
+	
+	
+</script>
